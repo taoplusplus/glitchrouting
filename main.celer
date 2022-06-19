@@ -1,0 +1,137 @@
+---
+_project:
+  authors:
+    - ""
+  description: ""
+  name: The Glitch
+  url: ""
+  version: 0.1.0
+_route:
+  - Plateau:
+    - Spicy Peppers, Hylian Shrooms, Apple:
+        notes: .v(Scrap)/16 scrap
+        var-change:
+          Scrap: 3
+
+  - The Glitch:
+    - .loc(Temple of Time):
+        movements:
+          - to: [-809.33, 263.58, 1964.35]
+            warp: true
+
+    - _Chest<Soldier's Bow>
+
+    - BLSS .dir(W>>)
+
+    - _Material<Mushroom Woods>:
+        coord: [-2203.83, 267.93, 792.66]
+        comment: Sunshroom, Zapshroom, Endura Shroom, Ironshroom, Razorshroom, Hearty Truffle, Luminous Stones
+        notes: .v(Scrap)/16 scrap
+        var-change:
+          Scrap: 7
+
+    - .dir(.N)
+    - _Material<Rutile Lake>:
+        movements:
+          - to: [-2514.73, 311.47, 713.41]
+          - to: [-2559.81, 306.99, 652.89]
+          - to: [-2572.44, 307.32, 660.62]
+        comment: 1 Courser Bee Honey, 4 Fleet Lotus Seeds, 2 Silent Princess
+
+    - .dir(E.)
+    - _Chest<Forest Dweller's Bow>:
+        coord: [-2342.64, 348.37, 680.81]
+    - Acorn
+
+    - .dir(.E)
+    - _Material<Diamond,1>:
+        coord: [-2247.90, 353.39, 662.05]
+
+    - .dir(N.)
+    - _Material<Durian Grove>:
+        coord: [-2196.75, 410.21, 443.15]
+        comment: Hearty Durian, Wood
+        notes: .v(Scrap)/16 scrap
+        var-change:
+          Scrap: 1
+
+    - .dir(W)
+    - _Material<Rushroom,3>:
+        coord: [-2297.00, 462.74, 447.00]
+
+    - Kill two birds -> Raw Bird Drumstick:
+        notes: .v(Scrap)/16 scrap
+        var-change:
+          Scrap: 1
+
+    - _Shrine::MoggLatan
+    
+    - _Chest<Forest Dweller's Bow>:
+        comment: In shrine
+
+    - BLSS .dir(NE)
+    - .loc(Hyrule Castle)
+    - _Chest<Ancient Arrows>:
+        coord: [-254.00, 209.67, -742.37]
+
+    - _Equipment::Bow<Royal Bow>
+
+    - Kill stalkers:
+        icon: calamity
+        coord: [-254.50, 130.00, -334.40]
+        comment: Screw, Gear, Spring, Shaft
+        notes: .v(Scrap)/16 scrap
+        var-change:
+          Scrap: 2
+
+    - BLSS .dir(SE)
+
+    - _Shrine::KayaWan:
+        notes: Ancient Core
+
+    - .dir(E.)
+    - _Shrine::DakaTuss
+
+    - .dir(S) + .dir(E.) + .dir(.S)
+    - _Shrine::TalohNaeg
+
+    - _Chest<Opal>:
+        comment: In shrine
+
+    - .dir(N)
+    - _Material<BLSS hill>:
+        coord: [1879.35, 342.34, 810.05]
+        comment: Blue Nightshade, 3 Silent Princess
+        notes: .v(Scrap)/16 scrap
+        var-change:
+          Scrap: 1
+
+    - BLSS .dir(S) + wb .dir(S)
+    - .loc(Riola Spring)
+    - _Tod::Morning:
+        coord: [1730.5,2969.5]
+        notes: Where do we get fire from?
+    
+    - Farosh's Scale, Shard of Farosh's Horn
+
+    - .dir(S)
+    - Black Lizalfos:
+        icon: calamity
+        coord: [1691.87, 280.72, 3661.50]
+        comment: Lizalfos Tail
+        notes: How to kill? FDB + shock enough?
+
+    - _Material<Fish>:
+        coord: [1643.02, 277.73, 3674.37]
+        comment: Hearty Bass, Hyrule Bass
+
+    - Mighty Banana:
+        notes: .v(Scrap)/16 scrap
+        var-change:
+          Scrap: 1
+
+    - BLSS .dir(NE)
+
+    - _Shop<Armor Shop>:
+        coord: [3360.63, 226.55, 2131.21]
+        comment: Do the glitch
