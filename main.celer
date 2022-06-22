@@ -8,10 +8,10 @@ _project:
   version: 0.1.0
 _route:
   - Plateau:
-    - Spicy Peppers, Hylian Shrooms, Apple:
-        notes: .v(Scrap)/16 scrap
+    - Spicy Peppers, Hylian Shrooms:
+        notes: .v(Scrap)/8 scrap
         var-change:
-          Scrap: 3
+          Scrap: 2
 
   - The Glitch:
     - .loc(Temple of Time):
@@ -19,18 +19,16 @@ _route:
           - to: [-809.33, 263.58, 1964.35]
             warp: true
 
-    - _Chest<Soldier's Bow>
-
     - BLSS .dir(W>>)
 
     - _Material<Mushroom Woods>:
         coord: [-2203.83, 267.93, 792.66]
-        comment: Sunshroom, Zapshroom, Endura Shroom, Ironshroom, Razorshroom, Hearty Truffle, Luminous Stones
-        notes: .v(Scrap)/16 scrap
+        comment: Sunshroom, Luminous Stones
+        notes: .v(Scrap)/8 scrap, pray for flint
         var-change:
-          Scrap: 7
+          Scrap: 2
 
-    - .dir(.N)
+    - .dir(W.)
     - _Material<Rutile Lake>:
         movements:
           - to: [-2514.73, 311.47, 713.41]
@@ -39,6 +37,7 @@ _route:
         comment: 1 Courser Bee Honey, 4 Fleet Lotus Seeds, 2 Silent Princess
 
     - .dir(E.)
+    - Rushroom
     - _Chest<Forest Dweller's Bow>:
         coord: [-2342.64, 348.37, 680.81]
     - Acorn
@@ -51,18 +50,13 @@ _route:
     - _Material<Durian Grove>:
         coord: [-2196.75, 410.21, 443.15]
         comment: Hearty Durian, Wood
-        notes: .v(Scrap)/16 scrap
+        notes: .v(Scrap)/8 scrap
         var-change:
           Scrap: 1
 
     - .dir(W)
     - _Material<Rushroom,3>:
         coord: [-2297.00, 462.74, 447.00]
-
-    - Kill two birds -> Raw Bird Drumstick:
-        notes: .v(Scrap)/16 scrap
-        var-change:
-          Scrap: 1
 
     - _Shrine::MoggLatan
     
@@ -79,10 +73,10 @@ _route:
     - Kill stalkers:
         icon: calamity
         coord: [-254.50, 130.00, -334.40]
-        comment: Screw, Gear, Spring, Shaft
-        notes: .v(Scrap)/16 scrap
+        comment: Gear (.v(Scrap)/8), Screw, 2 Spring, 2 Shaft
+        notes: Need at least 2 spring, 2 shaft
         var-change:
-          Scrap: 2
+          Scrap: 1
 
     - BLSS .dir(SE)
 
@@ -93,6 +87,10 @@ _route:
     - _Shrine::DakaTuss
 
     - .dir(S) + .dir(E.) + .dir(.S)
+    - _Npc::SheikaFemale<Impa>:
+        coord: [1772.71, 229.43, 984.31]
+    - Pot Lid
+    - Energetic Rhino Beetle
     - _Shrine::TalohNaeg
 
     - _Chest<Opal>:
@@ -102,31 +100,40 @@ _route:
     - _Material<BLSS hill>:
         coord: [1879.35, 342.34, 810.05]
         comment: Blue Nightshade, 3 Silent Princess
-        notes: .v(Scrap)/16 scrap
+        notes: .v(Scrap)/8 scrap
         var-change:
           Scrap: 1
 
     - BLSS .dir(S) + wb .dir(S)
+    - _Material<Angel Peak>:
+        coord: [1702.77, 371.38, 2577.68]
+        comment: Flint
+
+    - .dir(S) super 
     - .loc(Riola Spring)
     - _Tod::Morning:
         coord: [1730.5,2969.5]
-        notes: Where do we get fire from?
     
-    - Farosh's Scale, Shard of Farosh's Horn
+    - Farosh's Scale, Shard of Farosh's Horn, Farosh's Claw
 
     - .dir(S)
+    - _Material<Floria Bridge>:
+        coord: [1718.31, 130.50, 3454.90]
+        comment: Drownfall for Hearty Bass
+
     - Black Lizalfos:
         icon: calamity
         coord: [1691.87, 280.72, 3661.50]
-        comment: Lizalfos Tail
-        notes: How to kill? FDB + shock enough?
+        comment: Lizalfos Tail, .!!(bow)
+        notes: 3 headshots with FDB
 
     - _Material<Fish>:
         coord: [1643.02, 277.73, 3674.37]
         comment: Hearty Bass, Hyrule Bass
+        notes: Use shock arrow
 
     - Mighty Banana:
-        notes: .v(Scrap)/16 scrap
+        notes: .v(Scrap)/8 scrap
         var-change:
           Scrap: 1
 
